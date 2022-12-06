@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <!-- remix icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- own styles -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+  </head>
+  <body>
+    <header class="header container">
+        <img src="./images/logo.svg" alt="" class="logo__img" />
+    </header>
+    <main class="container body__container flex-box">
+      <section class="ping__body">
+        <h1 class="ping__body__title">
+          We are launching
+          <span class="clr-black">soon!</span>
+        </h1>
+        <p class="ping__body__paragraph">Subscribe and get notified</p>
+        <form action="" class="form">
+          <input type="email" name="email" id="email" class="form__email" placeholder="Your Email Address" />
+          <p class="error-text">Please provide a valid email address</p>
+          <button class="btn">Notify Me</button>
+        </form>
+      </section>
+      <section class="ping__hero__img__section">
+        <picture>
+          <img src="./images/illustration-dashboard.png" alt="" class="ping__hero__img" />
+        </picture>
+      </section>
+      <section class="social-media">
+        <ul class="sm-list">
+          <li class="sm-list-item">
+            <a href="" class="sm-list-item-link">
+              <i class="ri-facebook-fill"></i>
+            </a>
+          </li>
+          <li class="sm-list-item sm-center">
+            <a href="" class="sm-list-item-link ">
+              <i class="ri-twitter-fill"></i>
+            </a>
+          </li>
+          <li class="sm-list-item">
+            <a href="" class="sm-list-item-link">
+              <i class="ri-instagram-line"></i>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <p class="copy-right">&copy; Copyright Ping. All rights reserved.</p>
+      <p class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/kirimaruuu/fm-ping-lp" target="_blank">Kirimaruuu</a>.</p>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
